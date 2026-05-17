@@ -1,0 +1,35 @@
+*{
+   margin: 0%;
+   padding: 0%;
+   box-sizing: border-box;
+}
+html,body{
+   height: 100%;
+   width: 100%;
+   background-color: black;
+}
+
+#box1{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: absolute;
+    left: 60%;
+    z-index: 9;  /* jitna jyada z-index to box upr ayega */
+}
+#box2{
+    height: 100px;
+    width: 100px;
+    background-color: lightblue;
+    position: absolute;
+    left: 70%;
+    top: 10%;
+}
+#box3{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    position: absolute;
+    left: 50%;
+    top: 5%;
+}
